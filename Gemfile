@@ -5,7 +5,7 @@ if ENV['HEROKU_APP_NAME']
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+gem 'rails', '~> 4.2.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -37,7 +37,7 @@ gem 'puma', '~> 2.15.3'
 gem 'carrierwave-aws'
 
 # DEV
-gem 'locomotivecms', github: 'locomotivecms/engine', ref: '091acc0'
+gem 'locomotivecms', github: 'locomotivecms/engine'
 # gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '939f6f6'
 
 gem 'puma_worker_killer'
